@@ -19,7 +19,6 @@
 		EA79EEFB221E2E2400FC8CBF /* CarroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EEFA221E2E2400FC8CBF /* CarroResponse.swift */; };
 		EA79EEFD221E2E3000FC8CBF /* ApiCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EEFC221E2E3000FC8CBF /* ApiCarros.swift */; };
 		EA79EEFF221E2E8D00FC8CBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EEFE221E2E8D00FC8CBF /* Constants.swift */; };
-		EA79EF01221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EF00221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift */; };
 		EA79EF03221E367000FC8CBF /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA79EF02221E367000FC8CBF /* CarTableViewCell.xib */; };
 		EA79EF05221E36F700FC8CBF /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79EF04221E36F700FC8CBF /* CarTableViewCell.swift */; };
 		EA88914C222F5475001E09AD /* CarrosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA88914B222F5474001E09AD /* CarrosPresenter.swift */; };
@@ -44,7 +43,6 @@
 		EA79EEFA221E2E2400FC8CBF /* CarroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarroResponse.swift; sourceTree = "<group>"; };
 		EA79EEFC221E2E3000FC8CBF /* ApiCarros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCarros.swift; sourceTree = "<group>"; };
 		EA79EEFE221E2E8D00FC8CBF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		EA79EF00221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCarDatasourceAndDelegate.swift; sourceTree = "<group>"; };
 		EA79EF02221E367000FC8CBF /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
 		EA79EF04221E36F700FC8CBF /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
 		EA88914B222F5474001E09AD /* CarrosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosPresenter.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				EA79EEDE221E2C0200FC8CBF /* ViewController.swift */,
-				EA79EF00221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift */,
 				EA79EF04221E36F700FC8CBF /* CarTableViewCell.swift */,
 				EAA05FB0222E1712006EAB6E /* DetalhesViewController.swift */,
 				EA88914B222F5474001E09AD /* CarrosPresenter.swift */,
@@ -293,7 +290,6 @@
 				EA79EEFD221E2E3000FC8CBF /* ApiCarros.swift in Sources */,
 				EA79EF05221E36F700FC8CBF /* CarTableViewCell.swift in Sources */,
 				EA88914C222F5475001E09AD /* CarrosPresenter.swift in Sources */,
-				EA79EF01221E33EF00FC8CBF /* TableCarDatasourceAndDelegate.swift in Sources */,
 				EA79EEDD221E2C0200FC8CBF /* AppDelegate.swift in Sources */,
 				EA79EEFF221E2E8D00FC8CBF /* Constants.swift in Sources */,
 				EAA05FB1222E1712006EAB6E /* DetalhesViewController.swift in Sources */,

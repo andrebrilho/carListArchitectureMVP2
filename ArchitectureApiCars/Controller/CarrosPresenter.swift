@@ -9,26 +9,23 @@
 import Foundation
 
 protocol CarsProtocol {
-    func presentTableData(carList:[Carro])
-    func presentAlertError(mensagem:String, titleMessage:String)
+    func getCars()
+    var viewControllerReference:updatingViewFromApiProtocol? {get set}
 }
 
-class CarrosPresenter {
+class CarrosPresenter:CarsProtocol {
     
-    var protocolCar:CarsProtocol
+    var carros:[Carro] = []
     
-    init(protocolCar:CarsProtocol) {
-        self.protocolCar = protocolCar
-        getCars()
-    }
+    var viewControllerReference:updatingViewFromApiProtocol?
     
     func getCars() {
         ApiCarros.fetchCars { (result) in
             switch result {
             case let .Success(result):
-                self.protocolCar.presentTableData(carList: (result?.carro)!)
+                self.viewControllerReference?.listCars = ((result?.carro)!)
             case let .Error(error):
-                self.protocolCar.presentAlertError(mensagem: "Ops", titleMessage: error.localizedDescription)
+                print("Error")
             }
         }
     }
